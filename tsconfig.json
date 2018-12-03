@@ -1,0 +1,55 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@poc/admin/dashboard": [
+        "libs/admin/dashboard/src/index.ts"
+      ],
+      "@poc/client/about": [
+        "libs/client/about/src/index.ts"
+      ],
+      "@poc/sample/sample": [
+        "libs/sample/sample/src/index.ts"
+      ],
+      "@poc/shared": [
+        "libs/shared/src/index.ts"
+      ],
+      "@poc/common": [
+        "libs/common/src/index.ts"
+      ],
+      "@poc/common-ui": [
+        "libs/common-ui/src/index.ts"
+      ],
+      "@poc/common-ui/login": [
+        "libs/common-ui/login/src/index.ts"
+      ],
+      "@poc/experimental/exp": [
+        "libs/experimental/exp/src/index.ts"
+      ],
+      "@poc/libs/exp1": [
+        "libs/libs/exp1/src/index.ts"
+      ],
+      "@poc/exp2": [
+        "libs/exp2/src/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}

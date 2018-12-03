@@ -1,0 +1,12 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'poc-experimental',
+  templateUrl: './experimental.component.html',
+  styleUrls: ['./experimental.component.scss']
+})
+export class ExperimentalComponent implements OnInit {
+  constructor() {}
+
+  ngOnInit() {}
+}

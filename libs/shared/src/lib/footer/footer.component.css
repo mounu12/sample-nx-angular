@@ -1,0 +1,10 @@
+.content {
+    min-height: calc(100vh - 60px);
+    padding: 40px 40px 0 40px;
+}
+
+.footer {
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+}
